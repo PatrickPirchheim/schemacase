@@ -45,5 +45,5 @@ First public release.
 - `schemacase import postgres` and `schemacase import prisma`: start a spec from an existing schema.
 - A JSON Schema for the spec format, `schema/schemacase.schema.json`.
 
-[Unreleased]: https://github.com/DrFritzi/schemacase/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/DrFritzi/schemacase/releases/tag/v0.1.0
+[Unreleased]: https://github.com/PatrickPirchheim/schemacase/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/PatrickPirchheim/schemacase/releases/tag/v0.1.0

@@ -1,12 +1,12 @@
 # schemacase
 
-[![npm](https://img.shields.io/npm/v/schemacase)](https://www.npmjs.com/package/schemacase) [![ci](https://github.com/DrFritzi/schemacase/actions/workflows/ci.yml/badge.svg)](https://github.com/DrFritzi/schemacase/actions/workflows/ci.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![npm](https://img.shields.io/npm/v/schemacase)](https://www.npmjs.com/package/schemacase) [![ci](https://github.com/PatrickPirchheim/schemacase/actions/workflows/ci.yml/badge.svg)](https://github.com/PatrickPirchheim/schemacase/actions/workflows/ci.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 *Every column makes its case.*
 
-**[Live demo](https://drfritzi.github.io/schemacase/)**, rendered from [`example/shop.json`](example/shop.json) and a proposed change to it, [`example/proposed.json`](example/proposed.json). Click a table, use the rail on the left, and open **Proposals**.
+**[Live demo](https://patrickpirchheim.github.io/schemacase/)**, rendered from [`example/shop.json`](example/shop.json) and a proposed change to it, [`example/proposed.json`](example/proposed.json). Click a table, use the rail on the left, and open **Proposals**.
 
-<a href="https://drfritzi.github.io/schemacase/"><picture>
+<a href="https://patrickpirchheim.github.io/schemacase/"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/screenshot-dark.png">
   <img alt="A webshop's tables, endpoints and systems on one canvas. The orders table is open in the panel: each column shows why it exists and which requirement needs it, and the columns nobody has explained, total_cents, coupon_code and legacy_ref, are marked with a ?" src="docs/screenshot.png">
 </picture></a>
@@ -176,7 +176,7 @@ the collections, fields and operations it touches:
 }
 ```
 
-[![The proposals panel: three decisions, each showing exactly which columns it removes or adds, and a warning that one added column, products.weight_grams, belongs to no decision](docs/proposals.png)](https://drfritzi.github.io/schemacase/)
+[![The proposals panel: three decisions, each showing exactly which columns it removes or adds, and a warning that one added column, products.weight_grams, belongs to no decision](docs/proposals.png)](https://patrickpirchheim.github.io/schemacase/)
 
 The change list is authored; the before-and-after under each card is computed by diffing the two
 specs. Anything in that diff no card accounts for is printed as **Unaccounted for**, so a
@@ -211,7 +211,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: DrFritzi/schemacase@v0
+      - uses: PatrickPirchheim/schemacase@v0
         with:
           spec: docs/model.json
           fail-on-unaccounted: true
@@ -259,4 +259,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how the code is written and how relea
 
 ## License
 
-[MIT](LICENSE) © DrFritzi
+[MIT](LICENSE) © Patrick Pirchheim

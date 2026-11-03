@@ -8,7 +8,7 @@ The latest released version receives fixes.
 
 Please report vulnerabilities privately through GitHub:
 **Security → Report a vulnerability** on this repository
-([private vulnerability reporting](https://github.com/DrFritzi/schemacase/security/advisories/new)).
+([private vulnerability reporting](https://github.com/PatrickPirchheim/schemacase/security/advisories/new)).
 Do not open a public issue.
 
 You can expect a first answer within a week. Relevant areas include escaping in the generated

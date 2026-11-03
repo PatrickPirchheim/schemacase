@@ -1,6 +1,6 @@
 name: schemacase review
 description: Comment a pull request's data-model change as a reviewable diff, with anything no change accounts for called out.
-author: DrFritzi
+author: Patrick Pirchheim
 branding:
   icon: columns
   color: blue
