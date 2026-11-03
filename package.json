@@ -14,16 +14,16 @@
     "schema-review",
     "cli"
   ],
-  "homepage": "https://github.com/DrFritzi/schemacase#readme",
+  "homepage": "https://github.com/PatrickPirchheim/schemacase#readme",
   "bugs": {
-    "url": "https://github.com/DrFritzi/schemacase/issues"
+    "url": "https://github.com/PatrickPirchheim/schemacase/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DrFritzi/schemacase.git"
+    "url": "git+https://github.com/PatrickPirchheim/schemacase.git"
   },
   "license": "MIT",
-  "author": "DrFritzi",
+  "author": "Patrick Pirchheim",
   "type": "module",
   "bin": {
     "schemacase": "src/cli.mjs"

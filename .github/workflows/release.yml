@@ -2,7 +2,7 @@
 # stored anywhere, and every release carries a provenance statement linking it to this workflow.
 #
 # One-time setup on npmjs.com: package settings → Trusted publisher → GitHub Actions,
-# repository DrFritzi/schemacase, workflow release.yml, environment npm.
+# repository PatrickPirchheim/schemacase, workflow release.yml, environment npm.
 name: release
 
 on:
